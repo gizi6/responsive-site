@@ -14,15 +14,19 @@ body {
   letter-spacing: 0.1em;
   background-color: #fdfcf6; 
   height: auto;
-  
+  width: auto;
 }
   
 /* Header
 ----------------------------------------------------------*/
-header img{
+header {
+  background-image: url(../images/respon.jpg);
   width: 100%;
   height: 500px;
+  background-size: cover;
+  
 }
+
 
 /* Main
 ---------------------------------------------------------*/
@@ -53,11 +57,13 @@ main p {
   }
   
   .contents .box{
-    width: 100%;
+    width: auto;
+    height: auto;
   }
   
-  header img{
-    height: auto;
+  header{
+    width: 100%;
+    height: 250px;
     background-size: cover;
     background-position: center center;
   }
